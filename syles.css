@@ -1,0 +1,342 @@
+body {
+    background-color: #94BB68;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#Topnavbar {
+    background-color: #000000;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a.index {
+    color: #ADADAD;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: "Jacquarda Bastarda 9", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a.drinks {
+    color: #ADADAD;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: "Jacquarda Bastarda 9", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a.pastries {
+    color: #ADADAD;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: "Jacquarda Bastarda 9", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jacquarda-bastarda-9-regular {
+    font-family: "Jacquarda Bastarda 9", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+div.Header {
+   background-color: #000000;
+}
+
+div.CoffeeBarDescrip {
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 50px;
+    align-items:flex-start;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 70%;
+    margin-top: 20px;
+    
+}
+
+h1.heading {
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    font-family: "Jacquarda Bastarda 9", system-ui;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+h2.subheading {
+    color: #1655A2;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    line-height: 0.3;
+    font-family: "Jacquarda Bastarda 9", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gowun-batang-regular {
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .gowun-batang-bold {
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+p.CoffeeDescrip {
+    color: #000000;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    line-height: 0.7;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p.PastriesDescrip {
+    color: #000000;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    line-height: 0.7;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p.CoffeeBarDescrip {
+    color: #000000;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    line-height: 0.7;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p.LineGapTextPicture {
+    color: #000000;
+    font-size: 20px;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold' sans-serif;
+    justify-content: center;
+    line-height: 1;
+}
+
+p.LineGapForBottomFooter {
+    color: #000000;
+    font-size: 20px;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold' sans-serif;
+    justify-content: center;
+    line-height: 2;
+}
+
+div.PastriesInfomation {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    width: 100%;
+}
+
+
+div.cinnamon_roll {
+    margin-bottom: 20px;
+    width: 20%;
+    margin-left: 400px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+div.croissant {
+    margin-bottom: 20px;
+    width: 20%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+div.pain_au_chocolat {
+    margin-bottom: 20px;
+    width: 20%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+div.CoffeeInfomation {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+div.Latte {
+    margin-bottom: 20px;
+    width: 20%;
+    margin-left: 400px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+div.Espresso {
+    margin-bottom: 20px;
+    width: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+div.IcedCoffee {
+    margin-bottom: 20px;
+    width: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+
+div.CoffeeBarPicture {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 70%;
+}
+
+img.Latte-pic {
+    width: 400px;
+    height: 300px;
+    padding-right: 40px;
+}
+
+
+img.Espresso-pic {
+    width: 400px;
+    height: 300px;
+    padding-right: 40px;
+}
+
+img.IcedCoffee-pic {
+    width: 400px;
+    height: 300px;
+    padding-right: 40px;
+}
+
+img.cinnamon_roll-pic {
+    width: 400px;
+    height: 300px;
+    padding-right: 40px;
+}
+
+img.croissant-pic {
+    width: 400px;
+    height: 300px;
+    padding-right: 40px;
+}
+
+img.pain_au_chocolat-pic {
+    width: 400px;
+    height: 300px;
+    padding-right: 40px;
+}
+
+img.coffee_Bar-pic {
+    width: 1200px;
+    height: 500px;
+}
+  
+p.ItemName {
+    line-height: 1;
+    font-size: 34px;
+    color: #1655A2;
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 10px;
+  }
+  
+
+p.ItemPrice {
+    line-height: 0.8;
+    font-size: 40px;
+    color: #585858;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#Bottomnavbar {
+    background-color: #000000;
+    height: 50px;
+    display: flex;
+    padding-left: 500px;
+    padding-right:500px;
+    align-items: center;
+}
+
+a.facebook {
+    color: #FFA348;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right:50px;
+    text-align: center; 
+    font-family: "Jacquarda Bastarda 9", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a.twitter {
+    color: #FFA348;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right:50px;
+    text-align: center; 
+    font-family: "Jacquarda Bastarda 9", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a.instagram {
+    color: #FFA348;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right:50px;
+    text-align: center;
+    font-family: "Jacquarda Bastarda 9", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a.linkedin {
+    color: #FFA348;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right:50px;
+    text-align: center; 
+    font-family: "Jacquarda Bastarda 9", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
